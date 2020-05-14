@@ -75,10 +75,13 @@ hr{
     width: 150px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.TTG{
+    margin-left: 12%;
+}
 
 /*Divisi End*/
 
-/*Berita Start*/
+/*Berita Start and prestasi*/
 #berita{
     margin-top: 100px;
 }
@@ -107,4 +110,14 @@ hr{
     margin-left: 41.5%;
     width: 200px;
     color: white;
+    padding: 10px;
+}
+#prestasi{
+    margin-top: 150px;
+}
+/*Berita End*/
+
+/*Footer start*/
+footer{
+    background-color: red;
 }
