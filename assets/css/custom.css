@@ -82,3 +82,29 @@ hr{
 #berita{
     margin-top: 100px;
 }
+.col-berita{
+    margin-top: 5%;
+    margin-left: 30px;
+}
+.btn-berita{
+    color: #1E5D89;
+    border-bottom: 3px solid #1E5D89;
+    padding: 5px;
+    font-family: Poppins;
+}
+.btn-berita:hover{
+    text-decoration: none;
+}
+.card-judul{
+    color: #1E5D89;
+}
+.line{
+    width: 50%;
+    border-radius: 0;
+}
+.btn-more{
+    background-color: #1E5D89;
+    margin-left: 41.5%;
+    width: 200px;
+    color: white;
+}
