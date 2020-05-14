@@ -21,6 +21,12 @@ p{
     border: 0;
     padding: 15px;
 }
+.banner-hero{
+    background-color: white;
+}
+.bg-light{
+    background-color: white !important;
+}
 
 .banner-hero h2{
     font-weight: bold;
@@ -138,4 +144,17 @@ footer{
 }
 .copy{
     color: white;
+}
+/*footer end*/
+
+/*animation*/
+a:hover{
+    text-decoration: none;
+}
+.btn-more:hover{
+    color: white;
+    background-color: rgb(9, 115, 190);
+}
+.nav-link:hover{
+    border-bottom: #1E5D89 solid 2px;
 }
