@@ -55,7 +55,7 @@ hr{
 #divisi{
     background-color: #f2f2f2;
     margin-top: 75px;
-    height: 400px;
+    height: 450px;
 }
 .col-divisi{
     margin-top: 2%;
@@ -74,4 +74,11 @@ hr{
     height: 150px;
     width: 150px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Divisi End*/
+
+/*Berita Start*/
+#berita{
+    margin-top: 100px;
 }
