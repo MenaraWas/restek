@@ -119,5 +119,23 @@ hr{
 
 /*Footer start*/
 footer{
-    background-color: red;
+    background-color: #63617A;
+    height: 300px;
+}
+.text-footer{
+    color: white;
+}
+.title-content{
+    color: white;
+}
+.list-content{
+    color: white;
+    font-size: 17px;
+}
+.list-content a{
+    color:white;
+    font-family: Poppins;
+}
+.copy{
+    color: white;
 }
