@@ -32,14 +32,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active align-self-center">
+                        <li class="nav-item align-self-center">
                             <a class="nav-link " href="index.html">Beranda <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item align-self-center ml-2">
                             <a class="nav-link" href="profile.html">Profil</a>
                         </li>
-                        <li class="nav-item align-self-center ml-2">
-                            <a class="nav-link" href="berita.html">Berita</a>
+                        <li class="nav-item active align-self-center ml-2">
+                            <a class="nav-link" href="#">Berita</a>
                         </li>
                         <li class="nav-item align-self-center">
                             <a class="nav-link" href="prestasi.html">Prestasi</a>
@@ -52,7 +52,7 @@
 
     <main role="main">
 
-        <section class="jumbotron text-center">
+        <section class="jumbotron text-center bg-white">
             <div class="container">
                 <h1 class="jumbotron-heading">Album example</h1>
                 <p class="lead text-muted">Something short and leading about the collection below—its contents, the
@@ -239,15 +239,37 @@
 
     </main>
 
-    <footer class="text-muted">
+    <footer id="footer" class="mt-5">
         <div class="container">
-            <p class="float-right">
-                <a href="#">Back to top</a>
-            </p>
-            <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-            <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a
-                    href="../../getting-started/">getting started guide</a>.</p>
-        </div>
+            <div class="row">
+                <div class="col col-alamat mt-4 align-self-center">
+                    <img src="assets/images/logo_putih.png" alt="Logo Restek" width="75px">
+                    <p class="text-footer mt-3">UNIT KREATIFITAS MAHASISWA<br>REKAYASA TEKNOLOGI</p>
+                    <p class="text-footer">Student Center Lt. 3 <br> Universitas Negeri Yogyakarta</p>
+                </div>
+                <div class="col col-link align-self-center col-md-3 mb-md-0 mb-3 mt-5">
+                    <p class="title-content font-weight-bold mt-5">Content</p>
+                    <ul class="list-unstyled">
+                        <li class="list-content mt-2"><a href="#">Profil</a></li>
+                        <li class="list-content mt-2"><a href="#">Berita</a></li>
+                        <li class="list-content mt-2"><a href="#">Prestasi</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3 col-link align-self-center mt-5">
+                    <p class="title-content font-weight-bold mt-5">Informasi</p>
+                    <ul class="list-unstyled">
+                        <li class="list-content mt-2"><a href="#">Sejarah</a></li>
+                        <li class="list-content mt-2"><a href="#">Alumni</a></li>
+                        <li class="list-content mt-2"><a href="#">Penerimaan Anggota Baru</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-2 copy">
+                <div class="col align-self-center">
+                    <p class="text-center">Developed By PTI'19@2020</p>
+                </div>
+            </div>
+        </div> 
     </footer>
 
     <!-- Bootstrap core JavaScript

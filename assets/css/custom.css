@@ -24,7 +24,7 @@ p{
 .banner-hero{
     background-color: white;
 }
-.bg-light{
+.bg-white{
     background-color: white !important;
 }
 
@@ -157,4 +157,16 @@ a:hover{
 }
 .nav-link:hover{
     border-bottom: #1E5D89 solid 2px;
+}
+
+
+
+/*berita page*/
+.berita-hero{
+    background-color: red;
+}
+.garis{
+    width: 10%;
+    border: 3px solid #1E5D89;
+    margin-bottom: 15px;
 }
