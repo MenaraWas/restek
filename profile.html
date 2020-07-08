@@ -12,6 +12,81 @@
     <link rel="stylesheet" href="assets/css/custom.css">
     <script src="https://use.fontawesome.com/9cefcb336e.js"></script>
     <title>UKM Rekayasa Teknologi</title>
+    <style>
+
+        .sub-container {
+            width: 50%;
+            position: relative;
+            padding: 11% 0;
+        }
+
+        .col-bidang {
+            margin-left: 0px;
+            border-radius: 500px;
+        }
+
+        .card-bidang {
+            margin: 15px auto;
+        }
+
+        .card-divisi {
+            margin: auto;
+            text-align: center;
+        }
+
+        .TTG{
+            margin-left: 0px!important;
+        }
+
+        @media(min-width: 768px) {
+            #divisi {
+                height: auto;
+                padding-bottom: 60px;
+            }
+        }
+
+        @media (max-width: 540px) {
+
+            .banner-hero>.container>.banner-image,
+            .banner-hero>.container>.sub-container {
+                width: 100%;
+            }
+
+            .ml-5 {
+                margin-left: 0 !important;
+            }
+
+            .col-bidang {
+                margin-left: 0 !important;
+            }
+
+            .card-bidang {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            #divisi {
+                height: auto;
+                padding-bottom: 60px;
+            }
+
+            #divisi-divisi{
+                margin-top: 0px!important;
+            }
+
+            .row-divisi > .col:nth-child(1),
+            .row-divisi > .col:nth-child(2),
+            .row-divisi > .col:nth-child(3){
+                display: flex;
+                margin: 20px 0px 0px 0px;
+            }
+
+            .row-divisi > .col:nth-child(1) > .card-divisi.mt-5,
+            .row-divisi > .col:nth-child(3) > .card-divisi.mt-5{
+                margin-top: 0rem!important;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -45,17 +120,32 @@
         </nav>
 
         <main role="main">
-                <section class="jumbotron text-center bg-white">
-                    <div class="container mt-5">
-                        <img src="assets/images/logo.png" alt="Logo Restek" width="200" class="mt-5">
-                        <h1 class="mt-5">Berkontribusi Berkompetisi Berprestasi</h1>
-                    </div>
-                </section>
+            <section class="jumbotron text-center bg-white">
+                <div class="container mt-5">
+                    <img src="assets/images/logo.png" alt="Logo Restek" width="200" class="mt-5">
+                    <h1 class="mt-5">Berkontribusi Berkompetisi Berprestasi</h1>
+                </div>
+            </section>
         </main>
     </section>
     <!--Section Header End-->
 
-
+    <!--Section Bidang Start-->
+    <div class="banner-hero mt-5">
+        <div class="container">
+            <div class="banner-image float-right">
+                <img src="assets/images/tim.svg" alt="" class="ml-5" width="50%">
+            </div>
+            <div class="sub-container float-left">
+                <div class="align-self-center">
+                    <h2>Selamat Datang <br> di UKM Rekayasa Teknologi</h2>
+                    <p class="mt-4">UKM Rekayasa Teknologi merupakan salah satu UKM yang berada di Universitas
+                        Negeri Yogyakarta</p>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
 
 
     <!-- Optional JavaScript -->
