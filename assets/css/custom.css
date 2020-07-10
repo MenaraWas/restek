@@ -197,3 +197,12 @@ a:hover{
 #profile-video{
     margin-top: 5%;
 }
+
+/*Berita detail start*/
+article{
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+
+/*Berita detail End*/
