@@ -199,10 +199,12 @@ a:hover{
 }
 
 /*Berita detail start*/
-article{
-    font-family: Poppins;
-    font-size: 18px;
-}
 
+.breadcrumb{
+    padding: 0;
+}
+.image-news{
+    height: 5%;
+}
 
 /*Berita detail End*/
